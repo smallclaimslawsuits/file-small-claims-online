@@ -1,38 +1,31 @@
 {
-  "name": "small-claims-filer-app",
-  "version": "1.0.0",
-  "description": "The easiest way to file a small claim! Submit info online, then relax while an expert processes it on your behalf.",
+  "name": "small-claims-filer",
+  "version": "0.0.0",
+  "description": "An app that makes it EASY to file a small claims lawsuit!",
   "main": "index.js",
   "dependencies": {
     "async": "^1.4.2",
-    "paypal-rest-sdk": "^1.6.3",
+    "express": "^4.13.3",
     "lodash": "^3.10.1",
-    "request": "^2.65.0",
-    "express": "^4.13.3"
+    "paypal-rest-sdk": "^1.6.3",
+    "request": "^2.65.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/small-claims-experts/file-small-claims-online.git"
-  },
   "keywords": [
+    "small",
+    "claims",
+    "court",
     "file",
+    "a",
+    "small",
+    "claim",
     "small",
     "claims",
-    "online",
-    "ca",
-    "small",
-    "claims",
-    "los",
-    "angeles"
+    "lawsuit"
   ],
   "author": "Malak Lopez",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/small-claims-experts/file-small-claims-online/issues"
-  },
-  "homepage": "https://github.com/small-claims-experts/file-small-claims-online#readme"
+  "license": "ISC"
 }
